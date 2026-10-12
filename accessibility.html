@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility Statement | Nazrene AI</title>
+<meta name="description" content="How Nazrene AI has designed this website for accessibility, the standards we aim to meet, and how to report a problem.">
+<link rel="canonical" href="https://www.nazrene.ai/accessibility.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Accessibility Statement | Nazrene AI">
+<meta property="og:description" content="How Nazrene AI has designed this website for accessibility.">
+<meta property="og:url" content="https://www.nazrene.ai/accessibility.html">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Inter:wght@400;450;500;550;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/legal.css">
+</head>
+<body>
+
+<header class="nav is-stuck" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Nazrene AI — home">
+      <span class="nav-logo-mark" aria-hidden="true"><span>N</span></span>
+      Nazrene AI
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="index.html#contact" class="btn btn--light">Book a Review</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap wrap-narrow">
+    <a href="index.html" class="legal-back">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H4m0 0 3.4-3.4M4 8l3.4 3.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Back to home
+    </a>
+
+    <h1 class="t-h1">Accessibility Statement</h1>
+    <p class="legal-meta">Last updated: <span id="year">2026</span> · Nazrene AI, London, United Kingdom</p>
+
+    <div class="legal-body">
+
+      <div class="legal-callout">
+        <strong>In short.</strong> This website has been built to be usable by keyboard, screen
+        reader and voice control, and to respect your system's reduced-motion preference. We aim to
+        meet WCAG 2.2 Level AA. If you hit a barrier, tell us and we will fix it.
+      </div>
+
+      <h2>1. Our commitment</h2>
+      <p>
+        Nazrene AI wants everyone to be able to use this website, whatever device or assistive
+        technology they rely on. Accessibility is part of how we build, not something added
+        afterwards — and it matters commercially as well as ethically, because a site that excludes
+        people excludes customers.
+      </p>
+
+      <h2>2. The standard we aim to meet</h2>
+      <p>
+        We aim to conform to the <strong>Web Content Accessibility Guidelines (WCAG) 2.2, Level
+        AA</strong>, published by the World Wide Web Consortium (W3C). These guidelines are built
+        around four principles — content should be perceivable, operable, understandable and robust.
+      </p>
+      <p>
+        This site is not currently subject to the Public Sector Bodies (Websites and Mobile
+        Applications) Accessibility Regulations 2018, because Nazrene AI is not a public sector
+        body. We follow the same standard voluntarily.
+      </p>
+
+      <h2>3. What we have done</h2>
+
+      <h3>Structure and navigation</h3>
+      <ul>
+        <li>Semantic HTML landmarks (<code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>, <code>section</code>) so assistive technology can navigate by region.</li>
+        <li>A single, clear <code>h1</code> on each page, with a logical heading hierarchy beneath it and no skipped levels.</li>
+        <li>A "skip to main content" link as the first focusable element on the home page.</li>
+        <li>Descriptive page titles that identify the page before the site name.</li>
+        <li>The language of every page is declared as British English (<code>lang="en-GB"</code>) so screen readers use the correct pronunciation.</li>
+      </ul>
+
+      <h3>Keyboard access</h3>
+      <ul>
+        <li>Every interactive element — links, buttons, form fields, the mobile menu, the FAQ accordion — is reachable and operable using the keyboard alone.</li>
+        <li>A visible focus indicator appears on every focusable element, with sufficient contrast against the background.</li>
+        <li>The mobile menu can be closed with the <kbd>Escape</kbd> key, and focus returns to the button that opened it.</li>
+        <li>The FAQ accordion supports <kbd>Enter</kbd>, <kbd>Space</kbd>, <kbd>Arrow Up</kbd>, <kbd>Arrow Down</kbd>, <kbd>Home</kbd> and <kbd>End</kbd>.</li>
+        <li>No keyboard trap exists anywhere on the site.</li>
+      </ul>
+
+      <h3>Colour and contrast</h3>
+      <ul>
+        <li>Body text and headings meet or exceed a 4.5:1 contrast ratio against their backgrounds.</li>
+        <li>Interface components and focus indicators meet the 3:1 non-text contrast requirement.</li>
+        <li>Colour is never the only means of conveying information — status indicators are paired with text labels.</li>
+      </ul>
+
+      <h3>Forms</h3>
+      <ul>
+        <li>Every input has a programmatically associated <code>label</code>, so screen readers announce what the field is for.</li>
+        <li>Required fields are identified in text, not by colour alone.</li>
+        <li>Validation errors are announced to assistive technology using ARIA live regions, and describe how to fix the problem in plain language.</li>
+        <li>Error messages are linked to the field they relate to, and focus moves to the first field needing attention.</li>
+        <li>Submission success and failure states are announced, not merely displayed.</li>
+        <li>Autocomplete attributes are set on personal detail fields to support browser and assistive-technology autofill.</li>
+      </ul>
+
+      <h3>Motion and animation</h3>
+      <ul>
+        <li>The site respects the <code>prefers-reduced-motion</code> setting. When you have reduced motion enabled, the hero video does not crossfade, scroll reveals resolve immediately, the marquee stops, and all decorative animation is suppressed.</li>
+        <li>No content flashes more than three times per second.</li>
+        <li>No animation is required to read or use any part of the site.</li>
+      </ul>
+
+      <h3>Media</h3>
+      <ul>
+        <li>Background video is muted, loops without sound, and plays inline. It carries no information that is not also present in the surrounding text.</li>
+        <li>Decorative graphics are hidden from assistive technology with <code>aria-hidden</code>.</li>
+        <li>Informative icons that accompany text are marked as decorative, because the text already conveys the meaning.</li>
+      </ul>
+
+      <h3>Responsiveness and zoom</h3>
+      <ul>
+        <li>The layout adapts to desktop, tablet and mobile viewports.</li>
+        <li>Content remains usable when text is enlarged, and the layout reflows without horizontal scrolling at 320 CSS pixels wide.</li>
+        <li>Text is set in relative units so browser font-size preferences are respected.</li>
+      </ul>
+
+      <h2>4. Known limitations</h2>
+      <p>We would rather tell you what is not yet perfect than claim otherwise:</p>
+      <ul>
+        <li><strong>Background video.</strong> The hero uses decorative background footage. It carries no information, but it does consume bandwidth. If you prefer no video at all, the site is fully usable without it, and we can provide a video-free version on request.</li>
+        <li><strong>Third-party links.</strong> WhatsApp and LinkedIn are external services whose own accessibility we do not control.</li>
+        <li><strong>Google Fonts.</strong> Typefaces are loaded from Google's servers. This is a normal third-party request but does mean an external dependency.</li>
+        <li><strong>Automated and manual testing.</strong> This site has been built and reviewed against WCAG 2.2 AA criteria, but has not yet been audited by an independent accessibility specialist or tested with the full range of assistive technologies in real-world conditions. We intend to commission a formal audit as the business grows.</li>
+      </ul>
+
+      <h2>5. Alternative ways to reach us</h2>
+      <p>
+        If any part of this website prevents you from getting in touch, you can contact us directly
+        by any of the following. We will help you personally and will not require you to use the
+        website.
+      </p>
+      <div class="legal-card">
+        <p><strong>Nazrene AI</strong></p>
+        <p>London, United Kingdom</p>
+        <p>Email: <a href="mailto:solomonkent17@gmail.com">solomonkent17@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/447874456324" rel="noopener">+44 7874 456324</a></p>
+      </div>
+
+      <h2>6. Tell us about a problem</h2>
+      <p>
+        If you find something on this website that you cannot use, or that is harder to use than it
+        should be, please tell us. Include the page, what you were trying to do, and what happened.
+      </p>
+      <p>
+        We aim to acknowledge accessibility reports within <strong>5 working days</strong>, and to
+        give you a clear answer on what we will do. Where a fix is straightforward we will make it
+        promptly. Where it is not, we will tell you honestly and offer you a workaround in the
+        meantime.
+      </p>
+
+      <h2>7. How this statement was prepared</h2>
+      <p>
+        This statement was prepared by evaluating the website against WCAG 2.2 Level AA success
+        criteria, including structural review, keyboard-only navigation, contrast measurement,
+        form behaviour and reduced-motion behaviour. It was last reviewed on the date shown at the
+        top of this page.
+      </p>
+      <p>
+        We will review it whenever the site changes significantly, and at least annually.
+      </p>
+
+      <div class="legal-note">
+        <strong>A note on this document.</strong> This statement describes the accessibility
+        measures currently built into this website, based on our own evaluation. It has not been
+        independently audited. Where we say "we aim to" or "we intend to", that reflects work still
+        outstanding rather than work completed.
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="f-bottom" style="padding-top:0;border-top:0">
+      <p>© <span class="yr">2026</span> Nazrene AI. London, United Kingdom. All rights reserved.</p>
+      <nav class="f-legal" aria-label="Legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="cookie-policy.html">Cookie Policy</a>
+        <a href="accessibility.html">Accessibility Statement</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>document.querySelectorAll('#year,.yr').forEach(function(e){e.textContent=String(new Date().getFullYear())});</script>
+</body>
+</html>

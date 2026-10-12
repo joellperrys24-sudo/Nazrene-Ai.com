@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Nothing private is published on this site. No admin, staging or
+# internal tooling paths are exposed here.
+Sitemap: https://www.nazrene.ai/sitemap.xml
